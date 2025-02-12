@@ -1,0 +1,47 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.venv/
+.env
+*.env
+
+# Logs and database
+logs/
+*.log
+db.sqlite3
+
+# Testing
+.tox/
+nosetests.xml
+coverage.xml
+pytest_cache/
+
+# Editor and system files
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Dependencies
+dist/
+build/
+*.egg-info/
+
+# Docker
+*.pid
+docker-compose.override.yml
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# AWS and deployment
+*.pem
+.terraform/
+
+# FastAPI specific
+instance/
+__pypackages__/
