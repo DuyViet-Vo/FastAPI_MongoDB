@@ -1,0 +1,11 @@
+repos:
+  - repo: https://github.com/psf/black
+    rev: 23.9.1  # Phiên bản mới nhất của Black
+    hooks:
+      - id: black
+        name: Black
+        description: "The uncompromising Python code formatter."
+        entry: black
+        language: python
+        types: [python]
+
